@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: skyblue;
+}
+
+h1 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+p {
+    padding: 1rem;
+    line-height: 1.5;
+}
+

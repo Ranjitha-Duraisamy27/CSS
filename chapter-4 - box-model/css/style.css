@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 1em;
+    padding: 1em;
+    border: 3px double red;
+    outline: 2px solid purple;
+    outline-offset: -0.25em;
+}
+

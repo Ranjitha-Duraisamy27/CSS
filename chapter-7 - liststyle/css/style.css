@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin: 5rem;
+}
+
+.container {
+    padding: 1rem;
+}
+
+ol {
+    list-style: lower-roman inside;
+    line-height: 1.5;
+}
+
+ol li:nth-child(odd), ul li:nth-child(odd) {
+    color: darkblue;
+}
+
+ul {
+    list-style-position: inside;
+    line-height: 1.5;
+}
+
+::marker {
+    font-size: 2rem;
+    color: red;
+    content: '5% off >>> ';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}

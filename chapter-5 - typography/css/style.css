@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 2em;
+    font-family: sans-serif;
+}
+
+p {
+    text-indent: 2em;
+    line-height: 1.5;
+    font-weight: 500;
+    font-style: italic;
+}
+
